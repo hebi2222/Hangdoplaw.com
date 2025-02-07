@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Của Tôi</title>
+    <title>Luật Sư Nguyễn Văn A</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Xin chào! Đây là trang web của tôi trên GitHub Pages.</h1>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Luật Sư">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Luật Sư Nguyễn Văn A</h1>
+        <p>Chuyên tư vấn pháp lý và bảo vệ quyền lợi khách hàng.</p>
+        <button onclick="showAlert()">Nhận tư vấn</button>
+    </section>
+
+    <section id="about">
+        <h2>Giới thiệu</h2>
+        <img src="images/lawyer.jpg" alt="Luật Sư">
+        <p>Với hơn 10 năm kinh nghiệm, Luật Sư Nguyễn Văn A chuyên tư vấn và giải quyết các vấn đề pháp lý phức tạp.</p>
+    </section>
+
+    <section id="services">
+        <h2>Dịch vụ</h2>
+        <ul>
+            <li>Luật doanh nghiệp</li>
+            <li>Luật hình sự</li>
+            <li>Luật dân sự</li>
+            <li>Luật hôn nhân gia đình</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Email: <a href="mailto:luatsu@example.com">luatsu@example.com</a></p>
+        <p>Điện thoại: 0987 654 321</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Luật Sư Nguyễn Văn A. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
